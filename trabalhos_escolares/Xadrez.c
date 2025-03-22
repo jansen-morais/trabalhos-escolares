@@ -18,7 +18,6 @@ void rainha() { // A função "void" é vazia nos pemitindo criar o parametropar
 
 // Função para simular o movimento do cavalo usando loops avançados
 void cavalo() { // A função "void" é vazia nos pemitindo criar o parametroparaa recurcividade
-    int movimentosLinha[] = {0, 0, 0, 0, 0}; // Array com movimentos na linha (todos 0 neste exemplo)
     int movimentosColuna[] = {-1, -1, 1, 1, 1}; // Array com movimentos na coluna (-1 = esquerda, 1 = direita)
 
     printf("Movimentos do cavalo:\n"); // Imprime o cabeçalho dos movimentos do cavalo
